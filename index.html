@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="./imgs/Image-1.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;600&family=Oswald&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>RJ's Adventures</title>
 </head>
 <body>
     <div class = 'header'>
-        <img class = 'logo' src="https://github.com/RandyGeorge23/RJAdventures/blob/3861616eef1a316979b5c0b73f84fa79a51862d7/Image-1.jpg" alt="">
+        <img class = 'logo' src="./imgs/Image-1.jpg" alt="">
         <h1 class = 'title'>RJ's Adventures</h1>
         <button class = 'menu'>Menu</button>
     </div>
     <div class = 'container'>
-        <img class = 'section-1-img' src="img1.jpg" alt="">
+        <img class = 'section-1-img' src="./imgs/img1.jpg" alt="">
         <div class = 'section-1'>
             <h3>A New Way to Explore Jost Van Dyke.</h3>  
         </div>
@@ -30,14 +31,19 @@
         <p> $40 - 1/2 Day per Person</p>
 
 
-        <button class = 'button'>Book Now</button>
+        <button class = 'button' onclick="Calendly.initPopupWidget({url: 'https://calendly.com/rjsbvi/1day'});return false;">Book Now</button>
+        <!-- Calendly link widget begin -->
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <!-- Calendly link widget end -->
+
     </div>
 
     <div class = 'container-3'>
-        <img src="img2.jpg" alt="">
-        <img src="img3.jpg" alt="">
-        <img src="img4.jpg" alt="">
-        <img src="img5.jpg" alt="">
+        <img src="./imgs/img2.jpg" alt="">
+        <img src="./imgs/img3.jpg" alt="">
+        <img src="./imgs/img4.jpg" alt="">
+        <img src="./imgs/img5.jpg" alt="">
 
 
     </div>
