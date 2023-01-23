@@ -1,0 +1,167 @@
+
+html { 
+    box-sizing: border-box;
+}
+
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+
+
+
+
+
+body {
+    margin: 0px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(158, 24, 24);
+    color: white;
+    position: fixed;
+    width: 100vw;
+    height: 70px;
+    top: 0px;
+    left: 0px;
+    padding-left: 20px;
+    z-index: 2; 
+    border: 2px solid  rgb(158, 24, 24);
+}
+
+
+.logo { 
+    height: 100%;
+    width: 55px;
+    left: 10%;
+    padding: 5px;
+    border-radius: 60%;
+}
+
+.menu{
+    position: fixed;
+    right:8%;
+    height: 60px;
+    width: 100px;
+    border: 0px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 15px;
+}
+
+.menu:hover {
+    background-color: rgb(66, 12, 12);
+}
+
+.container{
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.section-1-img {
+   
+    width: 100%;
+    text-align: center;
+}
+
+
+.section-1 {
+    margin-top: -70%;
+    position: relative;
+    color: white;
+    font-size: 2rem;
+    text-align: center; 
+    
+
+}
+
+.section-1 h3 {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.555) ;
+    border-radius: 30px;
+    animation: test 1.2s linear;
+}
+
+@keyframes test {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.section-1 p {
+    font-size: 1.5rem;
+    
+}
+
+.container-2 button {
+    width: 30%;
+    height: 65px;
+    background-color:  rgb(158, 24, 24);
+    color:white;
+    border: 0px;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    box-shadow: 3px 5px 2px black , 0px 3px 6px black;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.button:hover {
+    background-color: rgb(66, 12, 12);
+}
+
+.container-2 {
+    position: relative;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 0px;
+    font-size: 1.5rem;
+}
+
+.container-3 {
+    text-align: center;
+}
+
+.container-3 img {
+    height: 400px;
+    width: auto;
+    
+}
+
+.container-4 {
+    height: 50px;
+}
+
+.notes {
+    height: 400px;
+    margin-left: 40%;
+    
+}
+
+@media (min-width: 1000px) {
+    .container {
+        height: 1300px;
+    }
+    .section-1 h3 {
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 4rem;
+  
+    }
+    .container-2 button {
+        width: 15%
+    }
+}
